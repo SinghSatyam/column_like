@@ -32,4 +32,4 @@ User.first_name_like('satyam')
 
 ## Bug reports
 
-If you discover a problem with Column Like, I would like to know about it. Send an email to 'satyam.mgs@gmail.com
+If you discover a problem with Column Like, I would like to know about it. Send an email to satyam.mgs@gmail.com
