@@ -1,4 +1,5 @@
 # Column Like
+<img src="https://badge.fury.io/rb/column_like.svg" alt="Gem Version" />
 
 Column Like allows you to search using like query in ActiveRecord. It is:
 
@@ -8,7 +9,7 @@ Column Like allows you to search using like query in ActiveRecord. It is:
 
 ## Getting started
 
-Column Like 3.0 works with ActiveRecord 3.0 onwards. You can add it to your Gemfile with:
+Column Like works with ActiveRecord 3.0 onwards. You can add it to your Gemfile with:
 
 ```ruby
 gem 'column_like'
