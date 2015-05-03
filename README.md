@@ -29,6 +29,8 @@ You should restart your application after installing Column Like.
 
 ```ruby
 User.first_name_like('satyam')
+User.last_name_like('satyam')
+User.email_like('satyam')
 ```
 
 ## Bug reports
