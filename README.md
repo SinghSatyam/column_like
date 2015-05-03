@@ -16,10 +16,10 @@ gem 'column_like'
 
 Run the bundle command to install it.
 
-After you install Devise and add it to your Gemfile, you need to run the generator:
+After you install Column Like and add it to your Gemfile, you need to run the generator:
 
 ```console
-rails generate colum_like:install
+rails generate column_like:install
 ```
 
 You should restart your application after installing Column Like.
