@@ -1,5 +1,6 @@
 # Column Like
 <img src="https://badge.fury.io/rb/column_like.svg" alt="Gem Version" />
+<img src="https://hakiri.io/github/SinghSatyam/column_like/master.svg" alt="Security Feature"/>
 
 Column Like allows you to search using like query in ActiveRecord. It is:
 
