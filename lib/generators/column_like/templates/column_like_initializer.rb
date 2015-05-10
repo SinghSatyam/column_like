@@ -3,7 +3,7 @@ class ActiveRecord::Base
     if (method_sym.to_s =~ /^(.*)_like$/)==0
       column=method_sym.to_s.split('_like').flatten.first
       if column_names.include? column
-        self.where("#{column} like ?","%#{arguments.first}%")
+        self.where("lower(#{column}) like ?","%#{arguments.first.downcase}%")
       else
         puts "*"*10+"You might want to check field name again"+"*"*10
         super
