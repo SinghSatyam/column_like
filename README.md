@@ -18,7 +18,7 @@ Column Like works with ActiveRecord 3.0 onwards. You can add it to your Gemfile 
 gem 'column_like'
 ```
 
-Run the 'bundle install' command to install it.
+Run the bundle command to install it.
 
 After you install Column Like and add it to your Gemfile, you need to run the generator:
 
@@ -43,3 +43,12 @@ User.first_name_like('%ty__')
 ## Bug reports
 
 If you discover a problem with Column Like, I would like to know about it. Send an email to satyam.mgs@gmail.com
+
+
+## Contribute
+
+1. Fork it ( http://github.com/SinghSatyam/column_like/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
