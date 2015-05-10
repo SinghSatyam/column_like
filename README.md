@@ -34,6 +34,10 @@ You should restart your application after installing Column Like.
 User.first_name_like('satyam')
 User.last_name_like('satyam')
 User.email_like('satyam')
+User.first_name_like('saty%')
+User.first_name_like('s_ty%')
+User.first_name_like('%ty%')
+User.first_name_like('%ty__')
 ```
 
 ## Bug reports
