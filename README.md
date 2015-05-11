@@ -3,6 +3,7 @@
 <img src="https://hakiri.io/github/SinghSatyam/column_like/master.svg" alt="Security Feature"/>
 <img src="https://d3s6mut3hikguw.cloudfront.net/github/SinghSatyam/column_like/badges/gpa.svg" alt="Code Complete"/>
 <img src="https://codeclimate.com/github/SinghSatyam/column_like/badges/coverage.svg"  alt="Code Coverage"/>
+<a href='https://gemnasium.com/SinghSatyam/column_like'><img src="https://gemnasium.com/SinghSatyam/column_like.svg" alt="Dependency Status" /></a>
 
 Column Like allows you to search using like query in ActiveRecord. It is:
 
