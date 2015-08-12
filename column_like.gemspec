@@ -2,7 +2,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |s|
   s.name        = 'column_like'
-  s.version     = '0.1.0'
+  s.version     = '1.0.0'
   s.date        = Date.today.to_s
   s.summary     = "Allows ActiveRecord Model to use like query"
   s.description = "Allows You To Use Like Query For Any Model. "

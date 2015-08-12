@@ -5,6 +5,8 @@ class ActiveRecord::Base
       if column_names.include? column
         if ((arguments.first.include? '%') || (arguments.first.include? '*') || (arguments.first.include? '_'))
           self.where("lower(#{column}) like ?","#{arguments.first.downcase}")
+        elsif arguments.first == ''
+          self.where("lower(#{column}) like ?","")
         else
           self.where("lower(#{column}) like ?","%#{arguments.first.downcase}%")
         end
