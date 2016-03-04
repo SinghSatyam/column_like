@@ -19,7 +19,7 @@ Column Like works with ActiveRecord 3.0 onwards. You can add it to your Gemfile 
 gem 'column_like'
 ```
 
-Run the bundle command to install it.
+Run the ```bundle``` command to install it.
 
 After you install Column Like and add it to your Gemfile, you need to run the generator:
 
